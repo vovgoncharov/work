@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #383838;
+}
+
+.header__wrap {
+  width: 1440px;
+  margin: 28px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #383838;
+}
+
+.logo {
+  font-weight: 400;
+}
+
+.photo {
+  padding-bottom: 80px;
+}
+
+.photo__wrap {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo__slider {
+  position: relative;
+}
+
+.photo__arrows,
+.slider__arrows {
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo__arrows .photo__arrow-left,
+.photo__arrows .photo__arrow-right,
+.photo__arrows .slider__arrow-left,
+.photo__arrows .slider__arrow-right,
+.slider__arrows .photo__arrow-left,
+.slider__arrows .photo__arrow-right,
+.slider__arrows .slider__arrow-left,
+.slider__arrows .slider__arrow-right {
+  display: block;
+  margin: 42.5px;
+  transition: opacity 0.5s;
+  padding: 10px;
+}
+.photo__arrows .photo__arrow-left:hover,
+.photo__arrows .photo__arrow-right:hover,
+.photo__arrows .slider__arrow-left:hover,
+.photo__arrows .slider__arrow-right:hover,
+.slider__arrows .photo__arrow-left:hover,
+.slider__arrows .photo__arrow-right:hover,
+.slider__arrows .slider__arrow-left:hover,
+.slider__arrows .slider__arrow-right:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.memory__wrap {
+  width: 830px;
+  text-align: center;
+  margin: 150px auto 0;
+  font-weight: 400;
+  color: #383838;
+  font-style: normal;
+}
+.memory__wrap .memory__title {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 400;
+}
+.memory__wrap .memory__text-own,
+.memory__wrap .memory__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 32px 0;
+}
+.memory__wrap .memory__text-big {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.memory__wrap .memory__candle {
+  display: block;
+  margin: 32px auto 0;
+}
+
+.slider {
+  margin-top: 150px;
+}
+
+.slider__wrap {
+  width: 1440px;
+  margin: 0 auto 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.slider__wrap .slider__arrows {
+  right: 0px;
+}
+
+.btn {
+  display: block;
+  border: none;
+  padding: 28px 48px;
+  background-color: #97917A;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: opacity 0.5s;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+.comments {
+  margin-top: 150px;
+}
+.comments .comments__wrap {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.comments .comments__wrap .comments__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 100px;
+}
+.comments .comments__wrap .comments__people {
+  margin-top: 60px;
+}
+.comments .comments__wrap .comments__people .comments__title-comment {
+  text-align: left;
+  margin: 11px 0 11px 60px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  position: relative;
+}
+.comments .comments__wrap .comments__people .comments__title-comment::before {
+  content: "";
+  background-image: url(../assets/img/invert.svg);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 27px;
+  position: absolute;
+  left: -60px;
+}
+.comments .comments__wrap .comments__people .comments__text-comment {
+  text-align: left;
+}
+.comments .comments__wrap .comments__btn {
+  margin-top: 72px;
+}
+
+.author {
+  background-color: #F7F7F7;
+  margin-top: 150px;
+}
+
+.author__wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 162px 0;
+  text-align: center;
+}
+.author__wrap .author__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.author__wrap .author__text {
+  margin: 36px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.footer {
+  margin: 150px 0 50px;
+}
+
+.footer__wrap {
+  width: 245px;
+  height: 140px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footer__wrap .footer__candle {
+  display: block;
+  margin: 0 auto;
+}
+.footer__wrap .footer__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer__wrap .footer__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.footer__wrap .years {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}/*# sourceMappingURL=style.css.map */
